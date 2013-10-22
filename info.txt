@@ -1,0 +1,17 @@
+title: Terms of Service
+desc: Adds a terms of service agreement to the register and posting page and links to a separate page to display the terms of service.
+author: Oliver Riesen <oliver@riesen.org>
+url: http://www.phorum.org/phorum5/read.php?62,129366
+category: posting
+priority: run module before spamhurdles
+required_version: 5.2.0
+version: 2.4.2
+
+hook: after_header|mod_tos_after_header
+hook: before_register|mod_tos_before_register
+hook: check_post|mod_tos_check_post
+hook: common|mod_tos_common
+hook: lang|
+hook: sanity_checks|mod_tos_sanity_checks
+hook: tpl_editor_before_textarea|mod_tos_tpl_editor_before_textarea
+hook: tpl_register_form|mod_tos_tpl_register_form

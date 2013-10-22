@@ -1,0 +1,97 @@
+Changelog:
+---------
+2005/12/15 version 1.0.0 by Brian Moon
+- Terms of Service agreement for register page.
+
+2006/04/11 version 1.1.0 by Oliver Riesen (oliver@riesen.org)
+- Added TOS agreement for posting page for guests.
+- Added display page for the TOS (with language support for file name of the
+  page).
+
+2006/04/13 version 2.0.0 by Oliver Riesen (oliver@riesen.org)
+- Changed TOS agreement link on posting page.
+- Added custom profile field to store the date of acceptance.
+- Added date of last change of the TOS in the module settings.
+- Added reforcing TOS agreement after modifications of the TOS.
+
+2006/06/25 version 2.0.1 by Oliver Riesen (oliver@riesen.org)
+- Changed TOS display on register page; thanks to Patricius
+  (http://www.phorum.org/phorum5/profile.php?16,2536).
+
+2006/08/30 version 2.0.2 by Oliver Riesen (oliver@riesen.org)
+- Changed how to determine the number of custom user profile fields in use
+  (http://www.phorum.org/phorum5/read.php?16,52449,116027#msg-116027);
+  thanks to Maurice Makaay (http://www.phorum.org/phorum5/profile.php?16,830).
+- Documentation extended.
+
+2006/08/31 version 2.1.0 by Oliver Riesen (oliver@riesen.org)
+- Prepare status of TOC so that other modules can use this information
+  (http://www.phorum.org/phorum5/read.php?16,52449,116065#msg-116065); thanks
+  to freedman (http://www.phorum.org/phorum5/profile.php?16,2878).
+- Registered users can renew there agreement also on the terms-of-service page.
+
+2006/08/31 version 2.1.1 by Oliver Riesen (oliver@riesen.org)
+- Some small fixes.
+
+2006/09/01 version 2.2.0 by Oliver Riesen (oliver@riesen.org)
+- Added sanity checks. See "System Sanity Checks" in Phorum administration.
+- Default settings are stored automatically on first usage of the module. So
+  the admin don't have to go to the settings page.
+- Module language strings now uses own sub-array.
+- Correcting error: whenever someone posted a message their TOS accept date
+  got updated to the current date
+  (http://www.phorum.org/phorum5/read.php?16,52449,116125#msg-116125); thanks
+  to freedman (http://www.phorum.org/phorum5/profile.php?16,2878).
+- Correcting error: a TOS version date in the future forced a renew for each
+  post (http://www.phorum.org/phorum5/read.php?16,52449,116142#msg-116142);
+  thanks to freedman (http://www.phorum.org/phorum5/profile.php?16,2878).
+- Including template for version 5.1 and future 5.2.
+
+2006/09/26 version 2.2.1 by Oliver Riesen (oliver@riesen.org)
+- Optimizing auto-installation of default settings.
+- Bug fix: missing profile field when calling settings just after enabling the
+  module; thanks to BBSNewbie
+  (http://www.phorum.org/phorum5/profile.php?16,3232).
+
+2006/09/29 version 2.2.2 by Oliver Riesen (oliver@riesen.org)
+- Small bug fix in sanity checks; thanks to BBSNewbie
+  (http://www.phorum.org/phorum5/profile.php?16,3232).
+
+2006/10/02 version 2.2.3 by Oliver Riesen (oliver@riesen.org)
+- Show TOS also on read page with posting form; thanks to Avdoshyn Andrej
+  (http://www.phorum.org/phorum5/profile.php?16,713).
+
+2006/10/26 version 2.2.4 by Oliver Riesen (oliver@riesen.org)
+- Bug fix in storing custom profile field.
+
+2006/10/26 version 2.2.5 by Oliver Riesen (oliver@riesen.org)
+- Revert bug fix from 2.2.4. It was a bug in the Phorum core
+  (http://www.phorum.org/cgi-bin/trac.cgi/ticket/498), corrected in changeset
+  1456 (http://www.phorum.org/cgi-bin/trac.cgi/changeset/1456) and
+  1459 (http://www.phorum.org/cgi-bin/trac.cgi/changeset/1459).
+
+2008/04/09 version 2.3.0 by Oliver Riesen (oliver@riesen.org)
+- Rewrite for Phorum 5.2
+
+2008/04/10 version 2.3.1 by Oliver Riesen (oliver@riesen.org)
+- Estonian language file thanks to Träm
+  (http://www.phorum.org/phorum5/profile.php?62,4780)
+- Using now phorum_date function and format mask from language file for
+  formatting dates. Particular date format removed from module language file.
+- Image folder removed since image is already included in emerald template.
+
+2008/04/11 version 2.3.2 by Oliver Riesen (oliver@riesen.org)
+- Fix for undefined index.
+
+2008/05/12 version 2.4.0 by Oliver Riesen (oliver@riesen.org)
+- German language files renamed according to structuring the language file and
+  charset support (http://www.phorum.org/phorum5/read.php?14,129937).
+- Added german language files with UTF-8 charset.
+
+2009/09/04 version 2.4.1 by Oliver Riesen (oliver@riesen.org)
+- Bug fix in German language files causing sanity checks to fail; thanks to
+  Ryan (http://www.phorum.org/phorum5/profile.php?62,385).
+
+2009/09/08 version 2.4.2 by Oliver Riesen (oliver@riesen.org)
+- Bug fix in template file causing undefined index; thanks to
+  Ryan (http://www.phorum.org/phorum5/profile.php?62,385).
