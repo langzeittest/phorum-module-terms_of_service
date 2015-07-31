@@ -140,6 +140,8 @@ function mod_tos_common() {
         include('./mods/terms_of_service/install.php');
     }
 
+
+    // Check the agreement
     $PHORUM['user']['mod_tos_current']
         = (    !$PHORUM['DATA']['LOGGEDIN']        // for guests always
             || !isset($PHORUM['user']['mod_tos'])  // reforce accept for registered user
