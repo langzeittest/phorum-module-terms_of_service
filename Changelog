@@ -95,3 +95,6 @@ Changelog:
 2009/09/08 version 2.4.2 by Oliver Riesen (oliver@riesen.org)
 - Bug fix in template file causing undefined index; thanks to
   Ryan (http://www.phorum.org/phorum5/profile.php?62,385).
+
+2015/09/08 version 2.4.3 by Oliver Riesen (oliver@riesen.org)
+- Rewrite of install file.
