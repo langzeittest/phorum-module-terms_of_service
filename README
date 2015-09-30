@@ -124,3 +124,10 @@ Todo:
   the default forum template.
 - Use template file for extending register and posting page. For the moment the
   HTML code is included in terms_of_service.php.
+
+
+Contribution:
+------------
+
+Contribute on GitHub:
+https://github.com/langzeittest/terms_of_service
